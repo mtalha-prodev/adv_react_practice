@@ -1,10 +1,15 @@
+import React from "react";
 import "./App.css";
+import Count from "./components/Count";
 
 function App() {
+  // console.log("App call");
   return (
-    <div className="App">
-      <h1>react practice session</h1>
-    </div>
+    <>
+      <div className="App">
+        <Count />
+      </div>
+    </>
   );
 }
 
