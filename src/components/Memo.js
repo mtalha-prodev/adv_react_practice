@@ -9,4 +9,7 @@ function Memo({ value }) {
   );
 }
 
+// React.memo like a pure Comment base this is not load when data pass not in Component
+// two time pass data loading only two time when first render and after update data
+
 export default React.memo(Memo);
