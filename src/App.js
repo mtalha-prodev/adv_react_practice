@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import DataFetchOne from "./components/useReducer/DataFetchOne";
+import DataFetchTwo from "./components/useReducer/DataFetchTwo";
 import ReduceContext from "./components/useReducer/ReduceContext";
 // import CountThree from "./components/useReducer/CountThree";
 // import ContextOne from "./components/context/ContextOne";
@@ -39,7 +41,9 @@ function App() {
         {/* <CountOne /> */}
         {/* <CountTwo /> */}
         {/* <CountThree /> */}
-        <ReduceContext />
+        {/* <ReduceContext /> */}
+        {/* <DataFetchOne /> */}
+        {/* <DataFetchTwo /> */}
       </div>
     </>
   );
