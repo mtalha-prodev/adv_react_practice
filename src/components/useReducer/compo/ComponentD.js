@@ -1,21 +1,21 @@
 import React, { useContext } from "react";
-import { CountContext } from "./ReduceContext";
+import { CountContext } from "../ReduceContext";
 
-function ComponentF() {
+function ComponentD() {
   const countContext = useContext(CountContext);
   return (
     <div>
-      Component F
+      Component D
       <button
         onClick={() =>
-          countContext.countDispatch({ type: "increment", value: 5 })
+          countContext.countDispatch({ type: "increment", value: 1 })
         }
       >
         Increment
       </button>
       <button
         onClick={() =>
-          countContext.countDispatch({ type: "decrement", value: 5 })
+          countContext.countDispatch({ type: "decrement", value: 1 })
         }
       >
         Decrement
@@ -27,4 +27,4 @@ function ComponentF() {
   );
 }
 
-export default ComponentF;
+export default ComponentD;

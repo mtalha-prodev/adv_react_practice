@@ -1,7 +1,7 @@
 import React, { useReducer } from "react";
-import ComponentA from "./ComponentA";
-import ComponentB from "./ComponentB";
-import ComponentC from "./ComponentC";
+import ComponentA from "./compo/ComponentA";
+import ComponentB from "./compo/ComponentB";
+import ComponentC from "./compo/ComponentC";
 
 export const CountContext = React.createContext();
 
