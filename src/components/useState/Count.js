@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Memo from "./Memo";
+import Memo from "../Memo";
 
 function Count() {
   const [count, setCount] = useState(0);
